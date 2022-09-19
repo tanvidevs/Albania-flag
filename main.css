@@ -1,0 +1,53 @@
+*{
+    background-color: aliceblue;
+    
+}
+.spain{
+    height: 400px;
+    width: 100px;
+    background-color: red;
+   transform: translate(620px,-400px);
+  
+}
+.mainbox{
+    height: 100px;
+    width: 450px;
+    background-color: blue;
+    translate: 450px;
+    margin-top: 10%;
+}
+.main{
+    height: 100px;
+    width: 450px;
+    background-color: white;
+    translate: 450px;
+}
+.plain{
+    height: 100px;
+    width: 450px;
+    background-color: darkgreen;
+    translate: 450px;
+}
+.chain{
+    height: 100px;
+    width: 450px;
+    background-color: yellow;
+    translate: 450px;
+}
+.star{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+   transform: translate(500px,-800px);
+   clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%);
+}
