@@ -1,0 +1,21 @@
+*{
+    background-color: aliceblue;
+    margin: 0;
+}
+.mainbox{
+    height: 300px;
+    width: 400px;
+    background-color: brown;
+    transform: translate(450px , 150px);
+}
+.container{
+   height: 15px;
+   width: 150px;
+   transform: translate(550px,0px);
+}
+.container img{
+    height: 200px;
+    width: 200px;
+    transform: translate(-220%,25%);
+    background-color: brown;
+}
